@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.App{
+    background-image: linear-gradient(135deg, #29323c 10%, #485563 100%);
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 45px;
+    color: darkorange;
+}
+.container{
+    width: 550px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-image: linear-gradient(135deg, #dfe9f3 10%, #ffffff 100%);
+}
+.container form{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container form label{
+    font-size: 22.5px;
+    font-weight: 700;
+}
+.container form input{
+    width: 240px;
+    padding: 5px;
+}
+.container button{
+  background-image: linear-gradient(#eaaf0d, #ea870d);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+  padding: 7.5px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.todocontainer .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 5px 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.todocontainer .item p{
+    font-size: 18.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
