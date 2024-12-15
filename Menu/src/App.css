@@ -1,0 +1,86 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(135deg, #fdfbfb 10%, #ebedee 100%);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin: 0 20px 10px 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.itemContainer{
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-image: linear-gradient(135deg, #09203f 10%, #537895 100%);
+}
+.itemContainer img{
+    width: 100%;
+    height: 60%;
+}
+.itemContainer .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 17.5px;
+}
+.itemContainer .content .price{
+    background: linear-gradient(90deg, #f3eb69 0%, #abff92 31%, #ffabab 79%);
+    color: transparent;
+-webkit-background-clip: text;
+    background-clip: text;
+-webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-weight: 900;
+}
+.itemContainer p{
+    margin: 3.5px;
+}
+.category{
+    padding: 15px 0 0 0;
+    color: #FFFFFF; 
+    background-image: linear-gradient(45deg, #FFFFFF 65%, #F2F2F2 77%, #E6E6E6 55%, #D9D9D9 25%, #CCCCCC 1%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
